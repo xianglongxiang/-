@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-zh">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>text circle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        .uc-badge {
+            position: absolute;
+            -webkit-animation: a 5s infinite linear;
+            animation: a 5s infinite linear;
+            -webkit-transform: rotate(0);
+            transform: rotate(0);
+            -webkit-transform-origin: center center;
+            transform-origin: center center;
+            will-change: transform;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        @-webkit-keyframes a {
+            to {
+                -webkit-transform: rotate(-1turn);
+                transform: rotate(-1turn)
+            }
+        }
+        @keyframes a {
+            to {
+                -webkit-transform: rotate(-1turn);
+                transform: rotate(-1turn)
+            }
+        }
+    </style>
+</head>
+<body>
+    <svg class="uc-badge" width="120" height="120" viewBox="-18 -18 120 120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+            <path d="M41.5,83 C18.5801829,83 0,64.4198171 0,41.5 C0,18.5801829 18.5801829,0 41.5,0 C64.4198171,0 83,18.5801829 83,41.5 C83,64.4198171 64.4198171,83 41.5,83 L41.5,83 Z" id="text-path"></path>
+        </defs>
+        <text font-family="inherit" font-weight="700" font-size="13" letter-spacing=".3em" text-align="justify" text-anchor="start" word-spacing="1.25em">
+            <textPath class="j1" xlink:href="#text-path">
+                hello xianglongxiang！
+            </textPath>
+        </text>
+    </svg>
+</body>
+</html>
