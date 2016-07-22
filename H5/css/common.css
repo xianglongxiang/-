@@ -1,0 +1,25 @@
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+html,body{height:100%}
+body,ul,h1,h2,h3,h4,p,input{margin:0;padding:0;-webkit-margin-before:0;-webkit-margin-after:0;}
+body{font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif}
+a{text-decoration:none}
+li{list-style:none}
+select,input,textarea{outline:0;border:0;background:0}
+.fl{float:left}
+.fr{float:right}
+.clearfix:after{content:"";display:block;clear:both}
+.clearfix{zoom:1}
+img{border:0}
+a:hover{text-decoration:none}
+html{font-size: 62.5%;}
+.nav{
+    height: 50px;
+    line-height: 50px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #cccccc;
+    padding: 0 20px;
+}
+.nav-left{
+    font-size: 1.7rem;
+    color: #29abe2;
+}

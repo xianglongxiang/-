@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/auth.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-left">
+            返回
+        </div>
+    </div>
+    <div class="content">
+        <h3 class="auth-title">将允许驾趣进行以下操作</h3>
+        <ul class="opt-list">
+            <li class="non-select">
+                获取车辆基本信息
+            </li>
+            <li class="selected select" data-id="1">
+                查询车辆故障等车况数据
+            </li>
+            <li class="select selected" data-id="1">
+                车辆位置服务
+            </li>
+        </ul>
+        <div class="auth-cars">
+            <h3>授权车辆：</h3>
+            <ul>
+                <li class="car-selected" data-id="1">
+                    渝CS3806
+                </li>
+                <li>
+                    渝CS3806
+                </li>
+                <li>
+                    渝CS3806
+                </li>
+                <li>
+                    渝CS3806
+                </li>
+            </ul>
+        </div>
+        <div class="opt-group">
+            <div id="cancel-auth">取消</div>
+            <div id="auth">授权</div>
+        </div>
+    </div>
+</body>
+<script src="../js/zepto.min.js"></script>
+<script src="../js/auth.js"></script>
+</html>

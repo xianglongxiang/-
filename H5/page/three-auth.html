@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/three-auth.css">
+</head>
+<body>
+<div class="content">
+    <div class="app-group">
+        <img class="app-img" src="../images/1.png" width="50">
+        <span class="app-name">趣图</span>
+    </div>
+    <div class="auth-cars">
+        <h3>授权车辆：</h3>
+        <ul>
+            <li class="car-selected" data-id="1">
+                渝CS3806
+            </li>
+            <li>
+                渝CS3806
+            </li>
+            <li>
+                渝CS3806
+            </li>
+            <li>
+                渝CS3806
+            </li>
+        </ul>
+    </div>
+    <h3 class="auth-title">将允许驾趣进行以下操作</h3>
+    <ul class="opt-list">
+        <li class="non-select">
+            1.获取车辆基本信息
+        </li>
+        <li class="selected select" data-id="1">
+           2. 查询车辆故障等车况数据
+        </li>
+        <li class="select selected" data-id="1">
+            3.车辆位置服务
+        </li>
+    </ul>
+    <div class="opt-group">
+        <div id="auth">授权</div>
+    </div>
+</div>
+</body>
+<script src="../js/zepto.min.js"></script>
+<script src="../js/three-auth.js"></script>
+</html>

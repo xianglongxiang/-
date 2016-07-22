@@ -1,0 +1,22 @@
+@charset "utf-8";
+.app-group{
+    height: 60px;
+    line-height: 60px;
+    padding: 0 10px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+.app-group img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.right-arrow{
+    position: absolute;
+    right: 10px;
+    top: 22px;
+}
+.app-name{
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333333;
+}

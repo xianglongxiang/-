@@ -1,0 +1,95 @@
+.nav-left{
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position-y: 13px;
+    padding-left: 18px;
+}
+.content{
+    margin-top: 40px;
+    padding: 0 50px;
+}
+.auth-title{
+    font-size: 1.7rem;
+    color: #333333;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+.opt-list{
+    margin-top: 12px;
+}
+.opt-list li{
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+.opt-list li:before,.auth-cars li:before{
+    content :" ";
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+    display: inline-block;
+}
+.non-select{
+    color: #999999;
+}
+.select{
+    color: #666666;
+}
+.non-select:before{
+    background-image: url("../images/select-grey.png");
+}
+.select:before{
+    background-image: url("../images/select.png");
+}
+.selected:before{
+    background-image: url("../images/selected.png");
+}
+.auth-cars{
+    border-top:  1px solid #cccccc;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.auth-cars ul li{
+    float: left;
+    width: 45%;
+    font-size: 1.6rem;
+    margin-right: 5%;
+}
+.auth-cars ul li:before{
+    background-image: url("../images/select.png");
+}
+.auth-cars ul .car-selected:before{
+    background-image: url("../images/selected.png");
+}
+.auth-cars h3{
+    color: #333333;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.auth-cars ul{
+    margin-top: 15px;
+}
+.opt-group{
+    clear: both;
+}
+.opt-group div{
+    display: inline-block;
+    width: 45%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+#auth{
+    float: right;
+    background-color: #FCAE18;
+}
+#cancel-auth{
+    background-color: #FF8160;
+}
+
